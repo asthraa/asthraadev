@@ -1,4 +1,4 @@
-baseurl = "http://asthraa.dev/"
+baseurl = "https://asthraa.dev/"
 title = "Hari Yerramsetty"
 theme = "hugo-coder"
 languagecode = "en"
