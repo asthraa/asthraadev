@@ -1,0 +1,62 @@
+baseurl = "https://asthraa.github.io/"
+title = "Hari Yerramsetty"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Hari Yerramsetty"
+    info = "Another Average Software Engineer"
+    description = "John Doe's personal website"
+    keywords = "hari yerramsetty, blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+
+    hidecredits = false
+    hidecopyright = false
+    colorscheme = "dark"
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/asthraa"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/hari-yerramsetty-442753112/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+
+[deployment]
+    order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+    name="asthras3bucket"
+    URL = "s3://asthra.io"
