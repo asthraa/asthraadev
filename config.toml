@@ -13,9 +13,9 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Hari Yerramsetty"
-    info = "Another Average Software Engineer"
+    info = "Ruby, Python & Golang Dev"
     description = "John Doe's personal website"
-    keywords = "hari yerramsetty, blog,developer,personal"
+    keywords = "hari yerramsetty, blog,developer,personal, ruby, python, golang"
     avatarurl = "images/avatar.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
@@ -55,8 +55,3 @@ pygmentscodefencesguesssyntax = true
 
 [deployment]
     order = [".jpg$", ".gif$"]
-
-
-[[deployment.targets]]
-    name="asthras3bucket"
-    URL = "s3://asthra.io"
